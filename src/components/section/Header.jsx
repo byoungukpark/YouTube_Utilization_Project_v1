@@ -19,13 +19,13 @@ const Header = () => {
         <h1 className='header__logo'>
           <a href='/'>
             <em aria-hidden='true'></em>
-            <span>webs<br />youtube</span>
+            <span>Study with<br />YouTube</span>
           </a>
         </h1>
 
         <nav className='header__menu'>
           <ul className='menu'>
-            <li>
+            <li className='active'>
               <a href='/'>
                 <CiBaseball />19컴공 유튜브 개발 일지
               </a>
@@ -113,7 +113,6 @@ const Header = () => {
             </li>
           </ul>
         </div>
-
       </header>
     </div>
   )
