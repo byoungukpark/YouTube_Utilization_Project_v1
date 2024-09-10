@@ -1,118 +1,40 @@
+/**
+ * 헤더 형식 작업 파일 
+ * 
+ * 디자인 작업 : 영상7
+ * 데이터 작업 : 영상8 - 반복 형식을 없에고 컴포넌트화 시키기
+ * 
+ * + 개념
+ * 리액트에서 리엑트내 페이지 이동은 `Link`를 사용
+ * Link에서 a태그의 `src` 같은것은 `to` 사용 
+ * 
+ * map을 사용하여 형식을 표현할때 key = index 처럼 생각
+ * 
+ * sns 에서
+ * <a href={sns.url} target='_blank' rel='noopener noreferrer' aria-label={sns.title}>
+ * noopener noreferrer : 보안적 문제 해결
+ * aria-label : 자동으로 나오는 타이틀 안보이게 하는 것
+ * 
+ * 
+ * useLocation : 현제 리엑트 페이지 주소 가져로기 위함
+ * 
+ * 마지막으로 Logo, Menu, Sns 전부 컴포넌트화 /header로 들어감
+ * 
+ */
+
 import React from 'react'
 
-//아이콘 불러오기
-import { CiBaseball } from "react-icons/ci";
-import { CiCoins1 } from "react-icons/ci";
-import { CiBoxes } from "react-icons/ci";
-import { CiBullhorn } from "react-icons/ci";
-import { CiCoffeeCup } from "react-icons/ci";
-import { AiFillGithub } from "react-icons/ai";
-import { AiOutlineCodepen } from "react-icons/ai";
-import { AiFillYoutube } from "react-icons/ai";
-import { AiOutlineInstagram } from "react-icons/ai";
-
+import Logo from '../header/Logo';
+import Menu from '../header/Menu';
+import Sns from '../header/Sns';
 
 const Header = () => {
   return (
     <div>
       <header id='header' role='banner'>
-        <h1 className='header__logo'>
-          <a href='/'>
-            <em aria-hidden='true'></em>
-            <span>Study with<br />YouTube</span>
-          </a>
-        </h1>
-
-        <nav className='header__menu'>
-          <ul className='menu'>
-            <li className='active'>
-              <a href='/'>
-                <CiBaseball />19컴공 유튜브 개발 일지
-              </a>
-            </li>
-            <li>
-              <a href='/today'>
-                <CiCoins1 />추천 영상
-              </a>
-            </li>
-            <li>
-              <a href='/developer'>
-                <CiBoxes />추천 코딩 유튜버
-              </a>
-            </li>
-            <li>
-              <a href='/webd'>
-                <CiBullhorn />따라하기 좋은 유튜브
-              </a>
-            </li>
-            <li>
-              <a href='/website'>
-                <CiCoffeeCup />개발 일지 블로그
-              </a>
-            </li>
-          </ul>
-
-          <ul className='keyword'>
-            <li>
-                <a href='/search/webstoryboy'>webstoryboy</a>
-            </li>
-            <li>
-                <a href='/search/html'>HTML</a>
-            </li>
-            <li>
-                <a href='/search/css'>CSS</a>
-            </li>
-            <li>
-                <a href='/search/javascript'>JavaScript</a>
-            </li>
-            <li>
-                <a href='/search/react.js'>React.js</a>
-            </li>
-            <li>
-                <a href='/search/vue.js'>Vue.js</a>
-            </li>
-            <li>
-                <a href='/search/next.js'>Next.js</a>
-            </li>
-            <li>
-                <a href='/search/node.js'>Node.js</a>
-            </li>
-            <li>
-                <a href='/search/sql'>SQL</a>
-            </li>
-            <li>
-                <a href='/search/React Portfolio'>portfolio</a>
-            </li>
-            <li>
-                <a href='/search/NewJeans'>music</a>
-            </li>
-          </ul>
-        </nav>
-
-        <div className='header__sns'>
-          <ul>
-            <li>
-                <a href='https://github.com/byoungukpark/YouTube_Utilization_Project_v1' rel='noopener noreferrer'>
-                    <AiFillGithub />
-                </a>
-            </li>
-            <li>
-                <a href='https://www.youtube.com/webstoryboy' rel='noopener noreferrer'>
-                    <AiFillYoutube />
-                </a>
-            </li>
-            <li>
-                <a href='https://codepen.io/webstoryboy' rel='noopener noreferrer'>
-                    <AiOutlineCodepen />
-                </a>
-            </li>
-            <li>
-                <a href='https://www.instagram.com/webstoryboy' rel='noopener noreferrer'>
-                    <AiOutlineInstagram />
-                </a>
-            </li>
-          </ul>
-        </div>
+        <Logo />
+        <Menu />
+        <Sns />
       </header>
     </div>
   )
