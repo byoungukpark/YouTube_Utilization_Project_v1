@@ -1,10 +1,11 @@
 import React from 'react'
+import MainStage from '../components/section/MainStage'
 
 const Home = () => {
   return (
-    <div>
-      <div>Home</div>
-    </div>
+    <MainStage>
+      Home
+    </MainStage>
   )
 }
 

@@ -1,10 +1,11 @@
 import React from 'react'
+import MainStage from '../components/section/MainStage'
 
 const Developer = () => {
   return (
-    <div>
-      
-    </div>
+    <MainStage>
+      Developer
+    </MainStage>
   )
 }
 

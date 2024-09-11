@@ -1,10 +1,11 @@
 import React from 'react'
+import MainStage from '../components/section/MainStage'
 
 const Website = () => {
   return (
-    <div>
-      
-    </div>
+    <MainStage>
+      Website
+    </MainStage>
   )
 }
 
