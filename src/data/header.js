@@ -28,7 +28,7 @@ export const header_menus = [
         src: "/today"
     },
     {
-        title: "추천 코딩 유튜버",
+        title: "추천 코딩 유튜브",
         icon:  <CiBoxes />,
         src: "/developer"
     },

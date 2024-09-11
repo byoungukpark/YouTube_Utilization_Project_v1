@@ -3,7 +3,10 @@ import MainStage from '../components/section/MainStage'
 
 const Search = () => {
   return (
-    <MainStage>
+    <MainStage 
+      title='유튜브 검색'
+      description='유튜브 검색 결과 페이지입니다.'
+    >
       Search
     </MainStage>
   )
