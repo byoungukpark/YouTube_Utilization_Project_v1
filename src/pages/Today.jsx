@@ -15,11 +15,12 @@ const Today = () => {
 
         {todayText.map((today, key) => (
           <div className='today__inner' key={key}>
-            <div className='today_thumb play__icon'>
+            <div className='today__thumb play__icon'>
               <Link to={today.page}>
                 <img src={today.img} alt={today.title} />
               </Link>
             </div>
+
             <div className='today__text'>
               <span className='today'>today!</span>
               <h3 className='title'>
