@@ -21,9 +21,7 @@ const Youtube = () => {
     >
       <section id='youtube' className={youtube_page_class}>
         <h2>나만의 유튜브 사이트 만들기</h2>
-        <div className='video__inner'>
-          <VideoCards videos={youtubeText}/>
-        </div>
+        <VideoCards videos={youtubeText}/>
       </section>
     </MainStage>
   )

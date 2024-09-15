@@ -23,7 +23,7 @@ const Developer = ({ videos, title, id }) => {
     <section id={id} className={developerClass}>
       <h2>{title}</h2>
 
-      <div className='develpoer__inner'>
+      <div className='developer__inner'>
         <Swiper
           slidesPerView={4}
           spaceBetween={15}
@@ -63,13 +63,13 @@ const Developer = ({ videos, title, id }) => {
         >
           {videos.map((developer, key) => (
             <SwiperSlide key={key}>
-              <div className='develpoer' key={key}>
-                <div className='develpoer__img play__icon'>
+              <div className='developer' key={key}>
+                <div className='developer__img play__icon'>
                   <Link to={`/channel/${developer.channelId}`}>
                     <img src={developer.img} alt={developer.name} />
                   </Link>
                 </div>
-                <div className='develpoer__info'>
+                <div className='developer__info'>
                   <Link to={`/channel/${developer.channelId}`}>
                     {developer.name}
                   </Link>

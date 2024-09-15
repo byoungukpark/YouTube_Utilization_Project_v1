@@ -21,9 +21,7 @@ const Webd = () => {
     >
       <section id='Webd_page' className={webdPageClass}>
         <h2> 따라하는 코딩 추천 유튜브 영상 </h2>
-        <div className='video__inner'>
-          <VideoCards videos = {webdText} />
-        </div>
+        <VideoCards videos = {webdText} />
       </section>
     </MainStage>
   )

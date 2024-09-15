@@ -21,9 +21,8 @@ const Website = () => {
     >
       <section id='website' className={website_page_class}>
         <h2>19컴공 개발일지에 블로그를 소개합니다.</h2>
-        <div className='video__inner'>
-          <VideoCards videos={websiteText}/>
-        </div>
+        <VideoCards videos={websiteText}/>
+        
       </section>
     </MainStage>
   )
