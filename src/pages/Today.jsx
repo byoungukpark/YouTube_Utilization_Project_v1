@@ -40,7 +40,6 @@ const Today = () => {
             </div>
           </div>
         ))}
-
       </section>
     </MainStage>
   )
