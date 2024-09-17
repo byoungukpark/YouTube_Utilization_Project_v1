@@ -9,7 +9,7 @@ const Search = () => {
   const handle_search = () =>{
     console.log(search_keyword);
     if(search_keyword){
-      navigate(`/search/${search_keyword}`);
+      navigate(`/Search/${search_keyword}`);
       set_search_keyword('');
     }
   }
