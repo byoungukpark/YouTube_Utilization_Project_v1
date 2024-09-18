@@ -35,7 +35,7 @@ const App = () => {
           <Route path='/port' element = {<Port/>}/>
           <Route path='/youtube' element = {<Youtube/>}/>
           <Route path='/channel/:channelID' element = {<Channel/>}/>
-          <Route path='/video/:vidioID' element = {<Video/>}/>
+          <Route path='/video/:videoID' element = {<Video/>}/>
           <Route path='/search/:searchID' element = {<Search/>}/>
           <Route path='/*' element = {<Not/>}/>
         </Routes>

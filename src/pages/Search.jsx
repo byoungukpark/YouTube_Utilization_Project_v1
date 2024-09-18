@@ -18,7 +18,7 @@ const Search = () => {
   }, [searchID]);
 
   const fetch_videos=(query, page_token='') => {
-    fetchFromAPI(`search?part=snippet&q=${query}&pageToken=${page_token}`)
+    fetchFromAPI(`search?part=snippet&type=video&q=${query}&pageToken=${page_token}`)
     .then((data) => {
       set_next_page_token(data.nextPageToken); //다음 검색 토큰 저장
       set_videos((prev_videos) => [...prev_videos, ...data.items]); //이전 검색 영상 + 새로운 검색 영상 합친 배열 새로 만들기
