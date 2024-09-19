@@ -14,6 +14,7 @@ const Channel = lazy(() => import('./pages/Channel'));
 const Video = lazy(() => import('./pages/Video'));
 const Search = lazy(() => import('./pages/Search'));
 const Not = lazy(() => import('./pages/Not'));
+const Test01 = lazy(() => import('./pages/Test01'));
 
 const App = () => {
   return (
@@ -38,6 +39,7 @@ const App = () => {
           <Route path='/video/:videoID' element = {<Video/>}/>
           <Route path='/search/:searchID' element = {<Search/>}/>
           <Route path='/*' element = {<Not/>}/>
+          <Route path='test01' element = {<Test01 />}/>
         </Routes>
       </Suspense>
     </BrowserRouter>

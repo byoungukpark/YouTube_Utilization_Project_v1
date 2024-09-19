@@ -41,6 +41,11 @@ export const header_menus = [
         title: "개발 일지 블로그",
         icon:  <CiCoffeeCup />,
         src: "/website"
+    },
+    {
+        title: "썸내일 테스트",
+        icon:  <CiCoffeeCup />,
+        src: "/test01"
     }
 ];
 
