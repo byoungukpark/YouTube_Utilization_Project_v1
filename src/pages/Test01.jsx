@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import MainStage from '../components/section/MainStage'
 
-import VideoSlider from '../components/videos/VideoSlider'
+import VideoSlider_v2 from '../components/videos/VideoSlider_v2'
 import { test01_text } from '../data/test01'
 import { fetchFromAPI } from '../utils/api'
 
@@ -39,10 +39,11 @@ const Test01 = () => {
     return videoData.map(video => ({
       videoId: video.id,
       img: video.snippet.thumbnails.high.url,
-      title: video.snippet.title
+      title: video.snippet.title,
+      channelId: video.snippet.channelId,
+      channelTitle: video.snippet.channelTitle
     }));
   }
-   
 
   if(loading){
     return(
@@ -60,7 +61,7 @@ const Test01 = () => {
       title='test01'
       description='test01'
     >
-      <VideoSlider videos={video_data_list} title="썸네일 테스트 페이지 영상" id="website" />
+      <VideoSlider_v2 videos={video_data_list} title="썸네일 테스트 페이지 영상" id="website" />
 
     </MainStage>
   )
