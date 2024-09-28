@@ -1,13 +1,9 @@
 import React, { useEffect, useState } from 'react'
-import MainStage from '../components/section/MainStage'
 
-import VideoSlider_v2 from '../components/videos/VideoSlider_v2'
-import VideoSlider_home from '../components/videos/VideoSlider_home'
+import VideoSlider_v2 from './VideoSlider_v2'
+import { fetchFromAPI } from '../../utils/api'
 
-import { test01_text } from '../data/test01'
-import { fetchFromAPI } from '../utils/api'
-
-const Test01 = () => {
+const VideoSlider_home = ({_data, _title, _id}) => {
   const[video_data_list, set_video_data_list] = useState([]);
   const[loading, set_loading] = useState(true);
 
@@ -15,7 +11,7 @@ const Test01 = () => {
     const fetchAllVideos = async () => {
       set_loading(true);
       try {
-        const promises = test01_text.map(text_data => 
+        const promises = _data.map(text_data => 
           fetchFromAPI(`videos?part=snippet&id=${text_data.videoId}`)
         );
 
@@ -35,7 +31,7 @@ const Test01 = () => {
     };
 
     fetchAllVideos();
-  }, [])
+  }, [_data])
 
   const make_video_dic = (videoData) => {
     return videoData.map(video => ({
@@ -49,26 +45,17 @@ const Test01 = () => {
 
   if(loading){
     return(
-      <MainStage 
-        title='test01'
-        description='test01'
-      >
-        로딩중!
-      </MainStage>
+      <>
+        <p>데이터 불러오는 중</p>
+      </>
     )
   }
 
   return (
-    <MainStage 
-      title='test01'
-      description='test01'
-    >
-      {/* <VideoSlider_v2 videos={video_data_list} title="썸네일 테스트 페이지 영상" id="website" />
-
-      <VideoSlider_home data = {test01_text} /> */}
-
-    </MainStage>
+    <>
+      <VideoSlider_v2 videos={video_data_list} title={_title} id={_id} />
+    </>
   )
 }
 
-export default Test01
+export default VideoSlider_home
