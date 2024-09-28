@@ -4,16 +4,16 @@ import Today from '../components/contents/Today'
 import Developer from '../components/contents/Developer'
 import VideoSlider from '../components/videos/VideoSlider'
 import Welcome from '../components/contents/Welcome_text'
-import VideoSlider_home from '../components/videos/VideoSlider_home'
+import VideoSlider_v2 from '../components/videos/VideoSlider_v2'
 
-import { webdText } from '../data/webd'
-import { websiteText } from '../data/website'
-import { gsapText } from '../data/gsap'
-import { portfolioText } from '../data/portfolio'
-import { youtubeText } from '../data/youtube'
-import { developerText } from '../data/developer';
 import { todayText } from '../data/today'
-import { test01_text } from '../data/test01'
+import { developerText } from '../data/developer'
+import { youtubeText } from '../data/youtube'
+
+import { knowledge_text } from '../data/knowledge'
+import { follow_text } from '../data/follow'
+import { gituse_text } from '../data/gituse'
+import { jsstudy_text } from '../data/jsstudy'
 
 const Home = () => {
   return (
@@ -23,15 +23,14 @@ const Home = () => {
     >
       <Welcome />
       <Today videos={todayText} id="today"/>
-      <Developer videos={developerText} title="😪 추천 개발자를 소개합니다." id="developer" />
-      <VideoSlider videos={webdText} title="😮 따라하는 코딩 추천 유튜브 영상" id="webd" />
+      <Developer videos={developerText} title="🤗 추천 개발자를 소개합니다." id="developer" />
 
-      <VideoSlider_home data={test01_text} title="개발자가 알면 좋은 상식 영상 추천" id="today"/>
+      <VideoSlider_v2 data={knowledge_text} title="😪 개발자가 알면 좋은 상식" id="Knowledge"/>
+      <VideoSlider_v2 data={follow_text} title="😮 따라하는 코딩" id="follow" />
+      <VideoSlider_v2 data={gituse_text} title="😛 Git 사용법" id="gituse" />
+      <VideoSlider_v2 data={jsstudy_text} title="🤓 javascript 문법 익히기" id="jsstudy" />
 
-      <VideoSlider videos={websiteText} title="😛 19컴공 개발 블로그를 소개합니다" id="website" />
-      <VideoSlider videos={gsapText} title="🤓 GSAP 패럴랙스 효과를 하고 싶다면!" id="gsap" />
-      <VideoSlider videos={portfolioText} title="🤗 포트폴리오 만드는 방법을 공유합니다." id="portfolio" />
-      <VideoSlider videos={youtubeText} title="😱 지금 이 코딩을 영상으로" id="youtube" />
+      <VideoSlider videos={youtubeText} title="😱 지금 보는 사이트 만들기 - 리엑트, YouTube API 사용법" id="youtube" />
     </MainStage>
   )
 }

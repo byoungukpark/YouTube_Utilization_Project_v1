@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import MainStage from '../components/section/MainStage'
 
-import { webdText } from '../data/webd'
+// import { webdText } from '../data/webd'
 import VideoCards from '../components/videos/VideoCards'
 
 const Webd = () => {
@@ -20,8 +20,8 @@ const Webd = () => {
       description='따라하기 좋은 유튜브를 소개합니다.'
     >
       <section id='Webd_page' className={webdPageClass}>
-        <h2> 따라하는 코딩 추천 유튜브 영상 </h2>
-        <VideoCards videos = {webdText} />
+        <h2> 따라하는 코딩 </h2>
+        {/* <VideoCards videos = {webdText} /> */}
       </section>
     </MainStage>
   )

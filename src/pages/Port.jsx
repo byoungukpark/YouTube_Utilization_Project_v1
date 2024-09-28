@@ -20,7 +20,7 @@ const Port = () => {
       description='포트폴리오 사이트 튜토리얼 강의입니다.'
     >
       <section id='port_page' className={port_page_class}>
-        <h2>나만의 포트폴리오 사이를 만들고 싶다면.</h2>
+        <h2>javascript 문법 익히기</h2>
         <VideoCards videos={portfolioText}/>
       </section>
     </MainStage>

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import MainStage from '../components/section/MainStage'
 
-import { websiteText } from '../data/website'
+// import { websiteText } from '../data/website'
 import VideoCards from '../components/videos/VideoCards'
 
 const Website = () => {
@@ -20,8 +20,8 @@ const Website = () => {
       description='19컴공 개발일지에 블로그를 소개합니다.'
     >
       <section id='website' className={website_page_class}>
-        <h2>19컴공 개발일지에 블로그를 소개합니다.</h2>
-        <VideoCards videos={websiteText}/>
+        <h2>따라하는 코딩</h2>
+        {/* <VideoCards videos={websiteText}/> */}
         
       </section>
     </MainStage>

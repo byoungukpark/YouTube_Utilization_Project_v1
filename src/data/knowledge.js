@@ -1,4 +1,4 @@
-export const test01_text = [
+export const knowledge_text = [
     {
         title: "빠른 웹사이트들의 필수 스택 10개",
         author : "코딩애플",

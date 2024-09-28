@@ -7,13 +7,27 @@ import 'swiper/css/navigation';
 
 import { Navigation } from 'swiper/modules';
 
-const VideoSlider_v2 = ({ videos, title, id }) => {
-  const [loading, setLoading] = useState(true); 
-    useEffect(() => {
-      setTimeout(() => {
-        setLoading(false);
-      }, 1000);
-    }, []);
+import { format_api_data } from '../../utils/api'
+
+const VideoSlider_v2 = ({ data, title, id }) => {
+  const[videos, set_video_data_list] = useState([]);
+
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    format_api_data(data)
+    .then((format_data) => {
+      set_video_data_list(format_data);
+    })
+    .catch((error) => {
+      console.error('Error fetching data:', error);
+      setLoading(false);
+    });
+
+    setTimeout(() => {
+      setLoading(false);
+    }, 500);
+  }, [data]);
 
   const youtubeClass = loading ? 'isLoading' : 'isLoaded';
   

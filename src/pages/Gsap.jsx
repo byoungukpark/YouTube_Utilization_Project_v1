@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import MainStage from '../components/section/MainStage'
 
-import { gsapText } from '../data/gsap'
+// import { gsapText } from '../data/gsap'
 import VideoCards from '../components/videos/VideoCards'
 
 const Gsap = () => {
@@ -20,8 +20,8 @@ const Gsap = () => {
       description='GSAP 사이트 튜토리얼 강의입니다.'
     >
       <section id='gsap' className={gsap_page_class}>
-        <h2>창의적 사이트를 만들고 싶다면!</h2>
-        <VideoCards videos={gsapText}/>
+        <h2>개발자가 알면 좋은 상식</h2>
+        {/* <VideoCards videos={gsapText}/> */}
       </section>
     </MainStage>
   )
