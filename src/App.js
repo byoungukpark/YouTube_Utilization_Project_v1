@@ -5,7 +5,7 @@ import MainStage from './components/section/MainStage'
 const Home = lazy(() => import('./pages/Home'));
 const Today = lazy(() => import('./pages/Today'));
 const Developer = lazy(() => import('./pages/Developer'));
-const Webd = lazy(() => import('./pages/Webd'));
+const Follow = lazy(() => import('./pages/Follow'));
 const Website = lazy(() => import('./pages/Website'));
 const Gsap = lazy(() => import('./pages/Gsap'));
 const Port = lazy(() => import('./pages/Port'));
@@ -30,7 +30,7 @@ const App = () => {
           <Route path='/' element = {<Home/>}/>
           <Route path='/today' element = {<Today/>}/>
           <Route path='/developer' element = {<Developer/>}/>
-          <Route path='/webd' element = {<Webd/>}/>
+          <Route path='/follow' element = {<Follow/>}/>
           <Route path='/website' element = {<Website/>}/>
           <Route path='/gsap' element = {<Gsap/>}/>
           <Route path='/port' element = {<Port/>}/>

@@ -35,7 +35,7 @@ export const header_menus = [
     {
         title: "따라하기 좋은 유튜브",
         icon:  <CiBullhorn />,
-        src: "/webd"
+        src: "/follow"
     },
     {
         title: "개발 일지 블로그",
