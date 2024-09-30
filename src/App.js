@@ -6,15 +6,14 @@ const Home = lazy(() => import('./pages/Home'));
 const Today = lazy(() => import('./pages/Today'));
 const Developer = lazy(() => import('./pages/Developer'));
 const Follow = lazy(() => import('./pages/Follow'));
-const Website = lazy(() => import('./pages/Website'));
-const Gsap = lazy(() => import('./pages/Gsap'));
-const Port = lazy(() => import('./pages/Port'));
+const Gituse = lazy(() => import('./pages/Gituse'));
+const Knowledge = lazy(() => import('./pages/Knowledge'));
+const Jsstudy = lazy(() => import('./pages/Jsstudy'));
 const Youtube = lazy(() => import('./pages/Youtube'));
 const Channel = lazy(() => import('./pages/Channel'));
 const Video = lazy(() => import('./pages/Video'));
 const Search = lazy(() => import('./pages/Search'));
 const Not = lazy(() => import('./pages/Not'));
-const Test01 = lazy(() => import('./pages/Test01'));
 
 const App = () => {
   return (
@@ -31,15 +30,14 @@ const App = () => {
           <Route path='/today' element = {<Today/>}/>
           <Route path='/developer' element = {<Developer/>}/>
           <Route path='/follow' element = {<Follow/>}/>
-          <Route path='/website' element = {<Website/>}/>
-          <Route path='/gsap' element = {<Gsap/>}/>
-          <Route path='/port' element = {<Port/>}/>
+          <Route path='/gituse' element = {<Gituse/>}/>
+          <Route path='/knowledge' element = {<Knowledge/>}/>
+          <Route path='/jsstudy' element = {<Jsstudy/>}/>
           <Route path='/youtube' element = {<Youtube/>}/>
           <Route path='/channel/:channelID' element = {<Channel/>}/>
           <Route path='/video/:videoID' element = {<Video/>}/>
           <Route path='/search/:searchID' element = {<Search/>}/>
           <Route path='/*' element = {<Not/>}/>
-          <Route path='test01' element = {<Test01 />}/>
         </Routes>
       </Suspense>
     </BrowserRouter>

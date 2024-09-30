@@ -9,11 +9,12 @@ import { CiBaseball } from "react-icons/ci";
 import { CiCoins1 } from "react-icons/ci";
 import { CiBoxes } from "react-icons/ci";
 import { CiBullhorn } from "react-icons/ci";
-import { CiCoffeeCup } from "react-icons/ci";
+import { CiDumbbell } from "react-icons/ci";
+import { CiFries } from "react-icons/ci";
+import { CiMoneyBill } from "react-icons/ci";
 import { AiFillGithub } from "react-icons/ai";
 import { AiOutlineCodepen } from "react-icons/ai";
 import { AiFillYoutube } from "react-icons/ai";
-import { AiOutlineInstagram } from "react-icons/ai";
 
 
 export const header_menus = [
@@ -28,7 +29,7 @@ export const header_menus = [
         src: "/today"
     },
     {
-        title: "추천 코딩 유튜브",
+        title: "추천 개발 유튜브",
         icon:  <CiBoxes />,
         src: "/developer"
     },
@@ -38,22 +39,23 @@ export const header_menus = [
         src: "/follow"
     },
     {
-        title: "개발 일지 블로그",
-        icon:  <CiCoffeeCup />,
-        src: "/website"
+        title: "개발자에게 좋은 상식",
+        icon:  <CiDumbbell />,
+        src: "/knowledge"
     },
     {
-        title: "썸내일 테스트",
-        icon:  <CiCoffeeCup />,
-        src: "/test01"
+        title: "Git 사용법",
+        icon:  <CiFries />,
+        src: "/gituse"
+    },
+    {
+        title: "javascript 문법 익히기",
+        icon:  <CiMoneyBill />,
+        src: "/jsstudy"
     }
 ];
 
 export const search_keyword = [
-    {
-        title: "webstoryboy",
-        src: "/search/webstoryboy"
-    },
     {
         title: "HTML",
         src: "/search/html"
@@ -71,14 +73,6 @@ export const search_keyword = [
         src: "/search/react.js"
     },
     {
-        title: "Vue.js",
-        src: "/search/vue.js"
-    },
-    {
-        title: "Next.js",
-        src: "/search/next.js"
-    },
-    {
         title: "Node.js",
         src: "/search/node.js"
     },
@@ -87,13 +81,29 @@ export const search_keyword = [
         src: "/search/sql"
     },
     {
-        title: "portfolio",
-        src: "/search/React Portfolio"
+        title: "java 강의",
+        src: "/search/java 강의"
     },
     {
-        title: "music",
-        src: "/search/NewJeans"
-    }
+        title: "python 강의",
+        src: "/search/python 강의"
+    },
+    {
+        title: "자료구조",
+        src: "/search/자료구조"
+    },
+    {
+        title: "알고리즘",
+        src: "/search/알고리즘"
+    },
+    {
+        title: "블록체인",
+        src: "/search/블록체인"
+    },
+    {
+        title: "API 사용법",
+        src: "/search/API 사용법"
+    },
 ];
 
 export const sns_link  = [
@@ -108,13 +118,8 @@ export const sns_link  = [
         icon: <AiFillYoutube />
     },
     {
-        title: "codepen",
-        url: "https://codepen.io/webstoryboy",
+        title: "blog",
+        url: "https://ukpark-00.tistory.com",
         icon: <AiOutlineCodepen />
-    },
-    {
-        title: "instagram",
-        url: "https://www.instagram.com/webstoryboy",
-        icon: <AiOutlineInstagram />
     }
 ];
