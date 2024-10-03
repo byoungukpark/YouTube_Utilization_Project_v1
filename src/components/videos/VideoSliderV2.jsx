@@ -9,7 +9,7 @@ import { Navigation } from 'swiper/modules';
 
 import { format_api_data } from '../../utils/api'
 
-const VideoSlider_v2 = ({ data, title, id }) => {
+const VideoSliderV2 = ({ data, title, id }) => {
   const[videos, set_video_data_list] = useState([]);
 
   const [loading, setLoading] = useState(true);
@@ -92,4 +92,4 @@ const VideoSlider_v2 = ({ data, title, id }) => {
 }
 
 
-export default VideoSlider_v2
+export default VideoSliderV2
