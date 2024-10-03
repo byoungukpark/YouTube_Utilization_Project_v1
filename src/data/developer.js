@@ -102,12 +102,6 @@ export const developerText = [
         channelId: "UCku8mOp8y05Cm6sb9Rp0jMQ"
     },
     {
-        img: "https://yt3.googleusercontent.com/1gLFRSPxZUYjlGG-Ap7B2bymZkdp4fFuSTAntouex6mdUQUZ2lA8kWMrzKOLHAdfkzjopcntU7E=s176-c-k-c0x00ffffff-no-rj",
-        name: "프로그래머 김플 스튜디오",
-        channelAddress: "https://www.youtube.com/@kimfl",
-        channelId: "UCdNSo3yB5-FRTFGbUNKNnwQ"
-    },
-    {
         img: "https://yt3.googleusercontent.com/ytc/AOPolaToAOoB7zZaRe9kVmXGi6QWBBPrESpK8pcaWnBL=s176-c-k-c0x00ffffff-no-rj",
         name: "Lama Dev",
         channelAddress: "https://www.youtube.com/@LamaDev",
@@ -130,107 +124,5 @@ export const developerText = [
         name: "동빈나",
         channelAddress: "https://www.youtube.com/@dongbinna",
         channelId: "UChflhu32f5EUHlY7_SetNWw"
-    },
-    {
-        img: "https://yt3.googleusercontent.com/ytc/AOPolaQZENEAuTWosc8r89GoegTvvjKzdEgBXMv7C4i4=s176-c-k-c0x00ffffff-no-rj",
-        name: "EdRoh",
-        channelAddress: "https://www.youtube.com/@EdRohDev",
-        channelId: "UCMoEx7gz7IbJHv733yEi2aA"
-    },
-    {
-        img: "https://yt3.googleusercontent.com/wg1TITEoPfxvBGfzuqWyt3bqm_qu35ZhMswUv3feetU3xNX_6wsAXZF40OlPIgY4TmqbqCmAZ1U=s176-c-k-c0x00ffffff-no-rj",
-        name: "JavaScript Mastery",
-        channelAddress: "https://www.youtube.com/@javascriptmastery",
-        channelId: "UCmXmlB4-HJytD7wek0Uo97A"
-    },
-    {
-        img: "https://yt3.googleusercontent.com/ytc/AOPolaTs1IEit9EUooQAJkWS4SkpUE7oMDXYrjIgnOk1Kw=s176-c-k-c0x00ffffff-no-rj",
-        name: "freeCodeCamp.org",
-        channelAddress: "https://www.youtube.com/@freecodecamp",
-        channelId: "UC8butISFwT-Wl7EV0hUK0BQ"
-    },
-    {
-        img: "https://yt3.googleusercontent.com/kVYpCZYEfX0_b2_Y7SROJsLahriQfOf6rW4egbSxDGWHDLiqhFcPM8eL56EKYfgjzetQQRx7fA=s176-c-k-c0x00ffffff-no-rj",
-        name: "How to Become a Developer",
-        channelAddress: "https://www.youtube.com/@howtobecomeadeveloper",
-        channelId: "UCkXqOdpo5ul8BosGBFlDgmw"
-    },
-    {
-        img: "https://yt3.googleusercontent.com/O8iON5EAVx6HVKyOV5UMreLFI_0D3mJX373vTEGoNcVRpNP7Lq8swha7BSLWTiEWlZaF7a4ENW8=s176-c-k-c0x00ffffff-no-rj",
-        name: "Code With Antonio",
-        channelAddress: "https://www.youtube.com/@codewithantonio",
-        channelId: "UCW_4e6sUTMWHxlF06aErH9w"
-    },
-    {
-        img: "https://yt3.googleusercontent.com/nwyG0ql8sxARogaFb3sgpjoNd86v7hL9W2eeEysP2LryigBtYtX-J2Mw9H1lpcB9D4sw0aCx9w=s176-c-k-c0x00ffffff-no-rj",
-        name: "EGATOR",
-        channelAddress: "https://www.youtube.com/@EGATORTUTORIALS",
-        channelId: "UCL8l_VxCAN0jOpaLaRAm8sQ"
-    },
-    {
-        img: "https://yt3.googleusercontent.com/a3vK_ZCS_QUX19CV2Xx1RY-CgR7DQzpeWk14UFbKdDv0Ryjc_FPf6Uo4-8NPi34deUay87eusQ=s176-c-k-c0x00ffffff-no-rj",
-        name: "빔캠프 CSS",
-        channelAddress: "https://www.youtube.com/@veamcamp",
-        channelId: "UCvx57s_ZBt5VG4fvlStiq2g"
-    },
-    {
-        img: "https://yt3.googleusercontent.com/wr8dNnJ8dSHjBsHKag3O6ZCKmxJvnxqhpPi-E6sWf83JYKxnevU2iSt3FzLxjzrZOCTRpbi53mg=s176-c-k-c0x00ffffff-no-rj",
-        name: "코딩카페1",
-        channelAddress: "https://www.youtube.com/@CodingCafe1",
-        channelId: "UCt76J5CYnXL-uoJmQPG2Azw"
-    },
-    {
-        img: "https://yt3.googleusercontent.com/AVa5OPep1y0E8bZMIyLDyzg1jTwApHaSCi2RUG0epuLFZe0e80yvYo7MNHd-ApnvOtDgT3A3=s176-c-k-c0x00ffffff-no-rj",
-        name: "Codegrid",
-        channelAddress: "https://www.youtube.com/@codegrid",
-        channelId: "UC7pVho4O31FyfQsZdXWejEw"
-    },
-    {
-        img: "https://yt3.googleusercontent.com/wgnEbc2Ec2JYkeyzUbiHzDlAFObI2Btwo2YRCEF1aCMBiRc5E_zWy8-URBQS3EMQ1yzzaGFR=s176-c-k-c0x00ffffff-no-rj",
-        name: "Kishan Sheth",
-        channelAddress: "https://www.youtube.com/@KishanSheth21",
-        channelId: "UCDT8sIFy3pW8LT6SAbe8xtQ"
-    },
-    {
-        img: "https://yt3.googleusercontent.com/ytc/AOPolaTc-hNjbGDnft48nMktaKF87D8EmpZ9Oacc4XeTew=s176-c-k-c0x00ffffff-no-rj",
-        name: "Yuri Artiukh",
-        channelAddress: "https://www.youtube.com/@akella_",
-        channelId: "UCDo7RTzizoOdPjY8A-xDR7g"
-    },
-    {
-        img: "https://yt3.googleusercontent.com/ytc/AOPolaQOeqOOHYrdr9qaOxYqujnMoTvladljn12PeOdeVA=s176-c-k-c0x00ffffff-no-rj",
-        name: "디자인베이스",
-        channelAddress: "https://www.youtube.com/@designbase",
-        channelId: "UCvYnDMeL-PFZhfIz6oc_U-Q"
-    },
-    {
-        img: "https://yt3.googleusercontent.com/ytc/AOPolaRq6HIiAsf1pv1CHAlIIM6MdbnaX0jqpTCOyIM5TA=s176-c-k-c0x00ffffff-no-rj",
-        name: "야무",
-        channelAddress: "https://www.youtube.com/@yamoo9",
-        channelId: "UCTZRL_OwTjiXYoTjwWg4bww"
-    },
-    {
-        img: "https://yt3.googleusercontent.com/ytc/AOPolaTtbptu4ao5lFu3ElFN61tMr1K0pvo8zd7qw7HeFw=s176-c-k-c0x00ffffff-no-rj",
-        name: "DesignCourse",
-        channelAddress: "https://www.youtube.com/@DesignCourse",
-        channelId: "UCVyRiMvfUNMA1UPlDPzG5Ow"
-    },
-    {
-        img: "https://yt3.googleusercontent.com/ytc/AOPolaR892c9LcaLOEfzAp80Nna198A4lte69Z80LV-2ug=s176-c-k-c0x00ffffff-no-rj",
-        name: "Code with Ania Kubów",
-        channelAddress: "https://www.youtube.com/@AniaKubow",
-        channelId: "UC5DNytAJ6_FISueUfzZCVsw"
-    },
-    {
-        img: "https://yt3.googleusercontent.com/ytc/AOPolaR0SDrl59HyNkJotnB41HBsVLXDUaRMbKFRJIIoJQ=s176-c-k-c0x00ffffff-no-rj",
-        name: "Coding Artist",
-        channelAddress: "https://www.youtube.com/@CodingArtist",
-        channelId: "UC15exV5s79D_aYGADudlwpQ"
-    },
-    {
-        img: "https://yt3.googleusercontent.com/ytc/AOPolaRbhQtG_1StOoOn0z0pfDfAFoe86Gk_kkR1OPhYVg=s176-c-k-c0x00ffffff-no-rj",
-        name: "Rock's Easyweb",
-        channelAddress: "https://www.youtube.com/@Ezweb",
-        channelId: "UCax1DP6hqZowNWF2lquKk0w"
     }
 ]
