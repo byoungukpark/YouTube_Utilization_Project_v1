@@ -17,11 +17,9 @@ const Not = lazy(() => import('./pages/Not'));
 
 const App = () => {
   return (
-    //BrowserRouter : 나는 가상의 주소를 쓰겠다
-    //Routes : 주소의 집합체
+    //BrowserRouter :가상의 주소 사용
+    //Routes : 주소 집합체
     //Route : 각 페이지
-
-    //element = {<Home/>} 이런걸 해당 부분의 내용 - 컴포넌트 라고 함
 
     <BrowserRouter> 
       <Suspense fallback={<MainStage />}>
